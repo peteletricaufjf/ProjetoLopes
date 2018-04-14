@@ -10,6 +10,7 @@ public class MainApp {
         final ConfigForm configForm = new ConfigForm();
         SwingUtilities.invokeLater(configForm::init);
 
+
         new Test();
     }
 }

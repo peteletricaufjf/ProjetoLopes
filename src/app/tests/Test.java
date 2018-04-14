@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class Test extends PApplet {
-    private static String SERIAL_PORT = "COM11";
+    private static String SERIAL_PORT = "/dev/ttyACM0";
     private Serial myPort;
     private int baud = 30; // Receber dados quantas vezes por segundo
     private int digitalOutput = Config.getDigitalOutput();

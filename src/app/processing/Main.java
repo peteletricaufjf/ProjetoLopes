@@ -18,7 +18,7 @@ public class Main extends Applet {
     public static final float SPEED_CORRECTION_FACTOR = 30 / FRAME_RATE;
     private static final int TIMEOUT = 3000;
 
-    private String serialPort = "COM4";
+    private String serialPort = "/dev/tty0";
     private int serialBaud = 9600;
     private ConveyorBelt conveyorBelt;
     private double speed = 1 * SPEED_CORRECTION_FACTOR;
